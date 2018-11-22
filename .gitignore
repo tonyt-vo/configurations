@@ -9,6 +9,7 @@ configuration/
 .profile
 .local
 .cache
-.bashrc
 .bash_history
 .bash_logout
+.gitconfig
+.bash_aliases
