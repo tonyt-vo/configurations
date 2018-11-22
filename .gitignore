@@ -1,0 +1,14 @@
+configuration/
+.zsh_history
+.zcompdump
+.vim
+.viminfo
+.sudo_as_admin_successful
+.ssh
+.python_history
+.profile
+.local
+.cache
+.bashrc
+.bash_history
+.bash_logout
