@@ -4,7 +4,6 @@
 
 main() {
     echo 'This script changes the following:'
-    echo -e '\tInstalls ZSH as default shell'
     echo -e '\t git credentials'
     echo -e '\t.vimrc files in home directory'
     echo -e '\t.tmux.conf files in home directory'
@@ -37,9 +36,6 @@ move_dot_files() {
 
     echo 'Overriding .bashrc...'
     mv .bashrc ~/
-
-    echo 'Overriding .zsh...'
-    mv .zsh ~/
 }
 
 main

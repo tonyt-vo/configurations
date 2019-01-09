@@ -116,7 +116,3 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-if [ -t 1 ]; then
-    exec zsh
-fi
-
