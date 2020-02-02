@@ -29,13 +29,13 @@ change_git_credentials() {
 
 move_dot_files() {
     echo 'Overriding .vimrc...'
-    mv .vimrc ~/
+    cp .vimrc ~/
 
     echo 'Overriding .tmux.conf...'
-    mv .tmux.conf ~/
+    cp .tmux.conf ~/
 
     echo 'Overriding .bashrc...'
-    mv .bashrc ~/
+    cp .bashrc ~/
 }
 
 main
