@@ -15,5 +15,6 @@ cd C:\Workspace
 git clone https://github.com/tonyt-vo/configurations.git
 cd C:\Worspace\configurations
 ./setup.sh
+./switch_caps_esc.ahk
 
 # TODO: set ahk for caps esc on startup
