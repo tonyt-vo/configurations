@@ -59,5 +59,6 @@ set cc=80                           " Column line to 80 characters
 syntax enable                       " Syntax highlighting
 set hlsearch                        " Highlight search
 set ignorecase                      " Ignore case when searching
-set bs=2
+set belloff=all                     " Turn off Bell noise (windows)
+set bs=2                            " Set Backspace
 
