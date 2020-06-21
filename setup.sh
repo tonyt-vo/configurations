@@ -2,7 +2,7 @@
 # Author: Tony Vo
 # Description: Quick set up script
 
-main() {
+install() {
     echo 'This script changes the following:'
     echo -e '\t git credentials'
     echo -e '\t.vimrc files in home directory'
@@ -44,4 +44,4 @@ move_dot_files() {
     cp .bashrc ~/
 }
 
-main
+install

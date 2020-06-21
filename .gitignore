@@ -13,3 +13,4 @@ configuration/
 .bash_logout
 .gitconfig
 .bash_aliases
+get-docker.sh
