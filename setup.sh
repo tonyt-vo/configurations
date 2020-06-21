@@ -14,6 +14,7 @@ main() {
     then
       change_git_credentials
       move_dot_files 
+      install_vundle
     else
       echo 'Exiting... No actions completed.' 
     fi
@@ -26,7 +27,12 @@ change_git_credentials() {
     git config --global user.name "Tony Vo"
     echo 'Git credentials changed successfully'
 }
+install_vundle() {
+    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    vim +PluginInstall +qall
 
+
+}
 move_dot_files() {
     echo 'Overriding .vimrc...'
     cp .vimrc ~/

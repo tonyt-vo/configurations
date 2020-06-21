@@ -24,9 +24,7 @@ set rtp+=~/.vim/bundle/Vundle.vim   " Vundle Path
 " Include Plugins Below Here 
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'       " Vundle Manager
-Plugin 'Valloric/YouCompleteMe'     " Autocompletion
 Plugin 'sickill/vim-monokai'        " Monokai theme
-Plugin 'scrooloose/nerdcommenter'   " Commenter
 
 
 call vundle#end() 
