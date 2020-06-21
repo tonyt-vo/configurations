@@ -116,3 +116,5 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+# Remap Caps and Escape
+setxkbmap -option caps:swapescape
